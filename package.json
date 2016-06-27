@@ -1,0 +1,13 @@
+{
+  "name": "scroll-top",
+  "version": "0.1.0",
+  "author": "sasa+1 <sasaplus1@gmail.com>",
+  "description": "cross browser scrollTop",
+  "main": "./index.js",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasaplus1-prototype/scroll-top.js.git"
+  }
+}
