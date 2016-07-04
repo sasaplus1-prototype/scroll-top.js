@@ -1,6 +1,6 @@
 {
   "name": "scroll-top",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "sasa+1 <sasaplus1@gmail.com>",
   "description": "cross browser scrollTop",
   "main": "./index.js",
@@ -9,5 +9,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sasaplus1-prototype/scroll-top.js.git"
+  },
+  "scripts": {
+    "build": "npm run compile && npm run minify",
+    "compile": "npm run webpack -- --output-file scroll-top.js",
+    "minify": "npm run webpack -- --optimize-minimize --output-file scroll-top.min.js",
+    "webpack": "webpack --colors --display-error-details --progress"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
   }
 }
